@@ -66,7 +66,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 70rem;
+  height: 76rem;
 
   background-image: linear-gradient(
       to left top,
@@ -194,4 +194,648 @@ footer h2 {
   color: white;
   width: 40rem;
   font-size: 2rem;
+}
+
+/*  responsive screen design */
+
+@media (max-width: 1768px) {
+  .fixed-img {
+    z-index: 10000;
+    position: fixed;
+    right: 3%;
+    top: 10%;
+  }
+  .fixed-img img {
+    border-radius: 10px;
+    height: 6rem;
+    /* opacity: 0.8; */
+    animation: moveFromRight 1s ease-in;
+    right: 10%;
+  }
+  .main-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60rem;
+
+    background-image: linear-gradient(
+        to left top,
+        rgba(251, 0, 255, 0.5),
+        rgba(17, 0, 255, 0.5)
+      ),
+      url(imgs/headerImg2.jpg);
+
+    background-size: 100%;
+    margin: 1rem;
+    background-repeat: no-repeat;
+  }
+  .main-header h1 {
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 6rem;
+    letter-spacing: 1.5rem;
+    margin-bottom: 2rem;
+    animation: moveFromLeft 1s ease-in;
+  }
+  .main-header h2 {
+    color: rgb(216, 216, 216);
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    animation: moveFromRight 1s ease-in;
+    text-align: center;
+  }
+  .mid-header {
+    padding: 4rem;
+    background-color: black;
+  }
+  .mid-header h2 {
+    animation: movefromBottom 1s ease-in;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3.5rem;
+  }
+  .description-section {
+    height: 115rem;
+    background-color: rgb(0, 0, 0);
+
+    position: relative;
+
+    background-image: linear-gradient(
+        to left top,
+        rgba(251, 0, 255, 0.5),
+        rgba(17, 0, 255, 0.5)
+      ),
+      url(imgs/galaxy-3608029.jpg);
+    background-repeat: no-repeat;
+    z-index: -1;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+  }
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 8rem;
+    margin-top: 6rem;
+  }
+  .row img {
+    height: 25rem;
+    width: auto;
+  }
+  footer img {
+    border-radius: 10px;
+    margin: 5rem auto;
+    display: block;
+    height: 12rem;
+    border: 1px solid white;
+    padding: 1rem;
+  }
+  footer h2 {
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    letter-spacing: 1.6rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid white;
+    width: 70rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+  }
+  .footer-text-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+  }
+  .footer-list {
+    color: white;
+  }
+  .footer-list ul li {
+    display: inline-flex;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+  }
+  .footer-list ul li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+  }
+
+  .right-para {
+    color: white;
+    width: 40rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 1480px) {
+  .fixed-img {
+    z-index: 10000;
+    position: fixed;
+    right: 2%;
+    top: 10%;
+  }
+  .fixed-img img {
+    border-radius: 10px;
+    height: 5.5rem;
+    /* opacity: 0.8; */
+    animation: moveFromRight 1s ease-in;
+    right: 10%;
+  }
+  .main-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+
+    background-image: linear-gradient(
+        to left top,
+        rgba(251, 0, 255, 0.5),
+        rgba(17, 0, 255, 0.5)
+      ),
+      url(imgs/headerImg2.jpg);
+
+    background-size: 100%;
+    margin: 1rem;
+    background-repeat: no-repeat;
+  }
+  .main-header h1 {
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5rem;
+    letter-spacing: 1.5rem;
+    margin-bottom: 2rem;
+    animation: moveFromLeft 1s ease-in;
+  }
+  .main-header h2 {
+    color: rgb(216, 216, 216);
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    animation: moveFromRight 1s ease-in;
+    text-align: center;
+  }
+  .mid-header {
+    padding: 4rem;
+    background-color: black;
+  }
+  .mid-header h2 {
+    animation: movefromBottom 1s ease-in;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+  }
+  .description-section {
+    height: 105rem;
+    background-color: rgb(0, 0, 0);
+
+    position: relative;
+
+    background-image: linear-gradient(
+        to left top,
+        rgba(251, 0, 255, 0.5),
+        rgba(17, 0, 255, 0.5)
+      ),
+      url(imgs/galaxy-3608029.jpg);
+    background-repeat: no-repeat;
+    z-index: -1;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+  }
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 8rem;
+    margin-top: 6rem;
+  }
+  .row img {
+    height: 22rem;
+    width: auto;
+  }
+  footer img {
+    border-radius: 10px;
+    margin: 5rem auto;
+    display: block;
+    height: 10rem;
+    border: 1px solid white;
+    padding: 1rem;
+  }
+  footer h2 {
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 1.6rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid white;
+    width: 60rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+  }
+  .footer-text-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+  }
+  .footer-list {
+    color: white;
+  }
+  .footer-list ul li {
+    display: inline-flex;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+  }
+  .footer-list ul li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+  }
+
+  .right-para {
+    color: white;
+    width: 40rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 1480px) {
+  .fixed-img {
+    z-index: 10000;
+    position: fixed;
+    right: 2%;
+    top: 10%;
+  }
+  .fixed-img img {
+    border-radius: 10px;
+    height: 4.5rem;
+    /* opacity: 0.8; */
+    animation: moveFromRight 1s ease-in;
+    right: 10%;
+  }
+  .main-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+
+    background-image: linear-gradient(
+        to left top,
+        rgba(251, 0, 255, 0.5),
+        rgba(17, 0, 255, 0.5)
+      ),
+      url(imgs/headerImg2.jpg);
+
+    background-size: 100%;
+    margin: 1rem;
+    background-repeat: no-repeat;
+  }
+  .main-header h1 {
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    letter-spacing: 1.5rem;
+    margin-bottom: 2rem;
+    animation: moveFromLeft 1s ease-in;
+  }
+  .main-header h2 {
+    color: rgb(216, 216, 216);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    animation: moveFromRight 1s ease-in;
+    text-align: center;
+  }
+  .mid-header {
+    padding: 2.5rem;
+    background-color: black;
+  }
+  .mid-header h2 {
+    animation: movefromBottom 1s ease-in;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+  }
+  .description-section {
+    height: 85rem;
+    background-color: rgb(0, 0, 0);
+
+    position: relative;
+
+    background-image: linear-gradient(
+        to left top,
+        rgba(251, 0, 255, 0.5),
+        rgba(17, 0, 255, 0.5)
+      ),
+      url(imgs/galaxy-3608029.jpg);
+    background-repeat: no-repeat;
+    z-index: -1;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+  }
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+  }
+  .row img {
+    height: 19rem;
+    width: auto;
+  }
+  footer img {
+    border-radius: 10px;
+    margin: 5rem auto;
+    display: block;
+    height: 10rem;
+    border: 1px solid white;
+    padding: 1rem;
+  }
+  footer h2 {
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 1.6rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid white;
+    width: 60rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+  }
+  .footer-text-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+  }
+  .footer-list {
+    color: white;
+  }
+  .footer-list ul li {
+    display: inline-flex;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
+  .footer-list ul li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+  }
+
+  .right-para {
+    color: white;
+    width: 40rem;
+    font-size: 1.2rem;
+  }
+  footer {
+    background-color: black;
+    height: 40rem;
+  }
+}
+
+@media (max-width: 1168px) {
+  .description-section {
+    height: 75rem;
+    background-color: rgb(0, 0, 0);
+
+    position: relative;
+
+    background-image: linear-gradient(
+        to left top,
+        rgba(251, 0, 255, 0.5),
+        rgba(17, 0, 255, 0.5)
+      ),
+      url(imgs/galaxy-3608029.jpg);
+    background-repeat: no-repeat;
+    z-index: -1;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+  }
+  .row img {
+    height: 16rem;
+    width: auto;
+  }
+  footer img {
+    border-radius: 10px;
+    margin: 3rem auto;
+    display: block;
+    height: 7rem;
+    border: 1px solid white;
+    padding: 1rem;
+  }
+  footer h2 {
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: 1.3rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid white;
+    width: 40rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+  }
+  .footer-list ul li {
+    display: inline-flex;
+    padding: 0.75rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+  }
+  .footer-list ul li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+  }
+
+  .right-para {
+    color: white;
+    width: 30rem;
+    font-size: 1rem;
+  }
+  footer {
+    background-color: black;
+    height: 31rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .fixed-img {
+    z-index: 10000;
+    position: fixed;
+    right: 3%;
+    top: 10%;
+  }
+  .fixed-img img {
+    border-radius: 10px;
+    height: 3.5rem;
+
+    animation: moveFromRight 1s ease-in;
+    right: 10%;
+  }
+  .main-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    background-image: linear-gradient(
+        to left top,
+        rgba(251, 0, 255, 0.5),
+        rgba(17, 0, 255, 0.5)
+      ),
+      url(imgs/headerImg2.jpg);
+    background-size: 100%;
+    margin: 1rem;
+    background-repeat: no-repeat;
+  }
+  .main-header h1 {
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    margin-bottom: 2rem;
+    animation: moveFromLeft 1s ease-in;
+  }
+  .main-header h2 {
+    color: rgb(216, 216, 216);
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    animation: moveFromRight 1s ease-in;
+    text-align: center;
+  }
+  .mid-header {
+    padding: 1.5rem;
+    background-color: black;
+  }
+  .mid-header h2 {
+    animation: movefromBottom 1s ease-in;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+  }
+  .description-section {
+    height: 63rem;
+    background-color: rgb(0, 0, 0);
+
+    position: relative;
+
+    background-image: linear-gradient(
+        to left top,
+        rgba(251, 0, 255, 0.5),
+        rgba(17, 0, 255, 0.5)
+      ),
+      url(imgs/galaxy-3608029.jpg);
+    background-repeat: no-repeat;
+    z-index: -1;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+  }
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+  }
+  .row img {
+    height: 13rem;
+    width: auto;
+  }
+  footer img {
+    border-radius: 10px;
+    margin: 3rem auto;
+    display: block;
+    height: 5rem;
+    border: 1px solid white;
+    padding: 1rem;
+  }
+  footer h2 {
+    color: rgb(216, 216, 216);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 1.3rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid white;
+    width: 35rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+  }
+  .footer-list ul li {
+    display: inline-flex;
+    padding: 0.75rem;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+  }
+  .footer-list ul li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+  }
+
+  .right-para {
+    color: white;
+    width: 30rem;
+    font-size: 0.8rem;
+  }
+  footer {
+    background-color: black;
+    height: 25rem;
+  }
+  body {
+    height: 190vh;
+    width: auto;
+    background-color: black;
+  }
 }
