@@ -11,17 +11,26 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarpanch&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Astrology signs</title>
   </head>
   <body>
     <div class="overlay display-para"></div>
     <div class="fixed-img">
-      <img src="imgs/Capture.jpg" />
+      <img class="fixed-img-2" src="imgs/Capture.jpg" />
     </div>
     <div class="fixed-para display-para">
+      <button class="close-button">&times;</button>
       <p>
-        Please select your star sign and click tell my future to have your sign
-        predicted for you.
+        Please select your star sign and click to have your signs meaning
+        explained to you.
+      </p>
+    </div>
+    <div class="testPara hidden_test">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias optio
+        quam possimus quas natus corporis rerum asperiores ratione perferendis
+        adipisci, maiores eligendi! Aut quibusdam, rem quos excepturi quis
+        dolorum magnam!
       </p>
     </div>
     <div class="main-header">
@@ -33,27 +42,481 @@
     </div>
 
     <div class="description-section">
-      <div class="row card-demensions">
-        <img class="card aquarius" src="imgs/aquarius.jpg" alt="aquarius" />
-        <img class="card pisces" src="imgs/pisces.jpg" alt="pisces" />
-        <img class="card aries" src="imgs/aries.jpg" alt="aries" />
-        <img class="card taurus" src="imgs/taurus.jpg" alt="taurus" />
+      <div class="row fixed">
+        <div class="overlay-background"></div>
+      </div>
+      <div class="aquarius-para opacity">
+        <div class="overlay-popup">
+          <button class="close-button-white">&times;</button>
+          <h2>Aquarius Traits</h2>
+          <ul>
+            <li>
+              <strong>Strengths:</strong> &nbsp; &nbsp; &nbsp;Progressive,
+              original, independent, humanitarian
+            </li>
+
+            <li>
+              <strong>Weaknesses:</strong> &nbsp; &nbsp; &nbsp;Runs from
+              emotional expression, temperamental, uncompromising, aloof
+            </li>
+
+            <li>
+              <strong>Aquarius likes:</strong> &nbsp; &nbsp; &nbsp;Fun with
+              friends, risky business, fighting for causes, intellectual
+              conversations.
+            </li>
+
+            <li>
+              <strong>Aquarius dislikes:</strong> &nbsp; &nbsp;
+              &nbsp;Limitations, broken promises, being lonely, dull or boring
+              situations.
+            </li>
+          </ul>
+          <button class="sign-button">Read my sign</button>
+        </div>
+      </div>
+      <div class="pisces-para opacity">
+        <div class="overlay-popup">
+          <button class="close-button-white">&times;</button>
+          <h2>Pisces Traits</h2>
+          <ul>
+            <li>
+              <strong>Strengths: </strong>&nbsp; &nbsp; &nbsp;Compassionate,
+              artistic, intuitive, gentle, wise, musical
+            </li>
+
+            <li>
+              <strong>Weaknesses:</strong> &nbsp; &nbsp; &nbsp;Fearful, overly
+              trusting, sad, desire to escape reality, can be a victim or a
+              martyr
+            </li>
+
+            <li>
+              <strong>Pisces likes:</strong>&nbsp; &nbsp; &nbsp; Being alone,
+              love, sleeping, music, romance, swimming, spiritual themes
+            </li>
+
+            <li>
+              <strong>Pisces dislikes:</strong> &nbsp; &nbsp; &nbsp;Know-it-all,
+              being criticized, the past coming back to haunt, cruelty of any
+              kind
+            </li>
+          </ul>
+          <button class="sign-button">Read my sign</button>
+        </div>
+      </div>
+      <div class="aries-para opacity">
+        <div class="overlay-popup">
+          <button class="close-button-white">&times;</button>
+          <h2>Aries Traits</h2>
+          <ul>
+            <li>
+              <strong>Strengths:</strong>&nbsp; &nbsp; &nbsp; Courageous,
+              determined, confident, enthusiastic, optimistic, honest,
+              passionate
+            </li>
+
+            <li>
+              <strong>Weaknesses:</strong>&nbsp; &nbsp; &nbsp; Impatient, moody,
+              short-tempered, impulsive, aggressive
+            </li>
+
+            <li>
+              <strong>Aries likes:</strong>&nbsp; &nbsp; &nbsp; Comfortable
+              clothes, taking on leadership roles, physical challenges,
+              individual sports
+            </li>
+
+            <li>
+              <strong>Aries dislikes:</strong>&nbsp; &nbsp; &nbsp; Inactivity,
+              delays, work that does not use one's talents
+            </li>
+          </ul>
+          <button class="sign-button">Read my sign</button>
+        </div>
+      </div>
+      <div class="taurus-para opacity">
+        <div class="overlay-popup">
+          <button class="close-button-white">&times;</button>
+          <h2>Taurus Traits</h2>
+          <ul>
+            <li>
+              <strong>Strengths:</strong>&nbsp; &nbsp; &nbsp; Reliable, patient,
+              practical, devoted, responsible, stable
+            </li>
+
+            <li>
+              <strong>Weaknesses:</strong>&nbsp; &nbsp; &nbsp; Stubborn,
+              possessive, uncompromising
+            </li>
+
+            <li>
+              <strong>Taurus likes:</strong>&nbsp; &nbsp; &nbsp; Gardening,
+              cooking, music, romance, high quality clothes, working with hands
+            </li>
+
+            <li>
+              <strong>Taurus dislikes:</strong>&nbsp; &nbsp; &nbsp; Sudden
+              changes, complications, insecurity of any kind, synthetic fabrics
+            </li>
+          </ul>
+          <button class="sign-button">Read my sign</button>
+        </div>
+      </div>
+      <div class="gemini-para opacity">
+        <div class="overlay-popup">
+          <button class="close-button-white">&times;</button>
+          <h2>Gemini Traits</h2>
+          <ul>
+            <li>
+              <strong>Strengths:</strong>&nbsp; &nbsp; &nbsp; Gentle,
+              affectionate, curious, adaptable, ability to learn quickly and
+              exchange ideas
+            </li>
+
+            <li>
+              <strong>Weaknesses:</strong>&nbsp; &nbsp; &nbsp; Nervous,
+              inconsistent, indecisive
+            </li>
+
+            <li>
+              <strong>Gemini likes:</strong>&nbsp; &nbsp; &nbsp; Music, books,
+              magazines, chats with nearly anyone, short trips around the town
+            </li>
+
+            <li>
+              <strong>Gemini dislikes:</strong>&nbsp; &nbsp; &nbsp; Being alone,
+              being confined, repetition and routine
+            </li>
+          </ul>
+          <button class="sign-button">Read my sign</button>
+        </div>
+      </div>
+      <div class="cancer-para opacity">
+        <div class="overlay-popup">
+          <button class="close-button-white">&times;</button>
+          <h2>Cancer Traits</h2>
+          <ul>
+            <li>
+              <strong>Strengths:</strong>&nbsp; &nbsp; &nbsp; Tenacious, highly
+              imaginative, loyal, emotional, sympathetic, persuasive
+            </li>
+
+            <li>
+              <strong>Weaknesses:</strong>&nbsp; &nbsp; &nbsp; Moody,
+              pessimistic, suspicious, manipulative, insecure
+            </li>
+
+            <li>
+              <strong>Cancer likes:</strong>&nbsp; &nbsp; &nbsp; Art, home-based
+              hobbies, relaxing near or in water, helping loved ones, a good
+              meal with friends
+            </li>
+
+            <li>
+              <strong>Cancer dislikes:</strong>&nbsp; &nbsp; &nbsp; Strangers,
+              any criticism of Mom, revealing of personal life
+            </li>
+          </ul>
+          <button class="sign-button">Read my sign</button>
+        </div>
+      </div>
+      <div class="leo-para opacity">
+        <div class="overlay-popup">
+          <button class="close-button-white">&times;</button>
+          <h2>Leo Traits</h2>
+          <ul>
+            <li>
+              <strong>Strengths:</strong>&nbsp; &nbsp; &nbsp; Creative,
+              passionate, generous, warm-hearted, cheerful, humorous
+            </li>
+
+            <li>
+              <strong>Weaknesses:</strong>&nbsp; &nbsp; &nbsp; Arrogant,
+              stubborn, self-centered, lazy, inflexible
+            </li>
+
+            <li>
+              <strong>Leo likes:</strong>&nbsp; &nbsp; &nbsp; Theater, taking
+              holidays, being admired, expensive things, bright colors, fun with
+              friends
+            </li>
+
+            <li>
+              <strong>Leo dislikes:</strong>&nbsp; &nbsp; &nbsp; Being ignored,
+              facing difficult reality, not being treated like a king or queen
+            </li>
+          </ul>
+          <button class="sign-button">Read my sign</button>
+        </div>
+      </div>
+      <div class="virgo-para opacity">
+        <div class="overlay-popup">
+          <button class="close-button-white">&times;</button>
+          <h2>Virgo Traits</h2>
+          <ul>
+            <li>
+              <strong>Strengths:</strong>&nbsp; &nbsp; &nbsp;Loyal, analytical,
+              kind, hardworking, practical
+            </li>
+
+            <li>
+              <strong>Weaknesses:</strong>&nbsp; &nbsp; &nbsp; Shyness, worry,
+              overly critical of self and others, all work and no play
+            </li>
+
+            <li>
+              <strong>Virgo likes:</strong>&nbsp; &nbsp; &nbsp; Animals, healthy
+              food, books, nature, cleanliness
+            </li>
+
+            <li>
+              <strong>Virgo dislikes:</strong>&nbsp; &nbsp; &nbsp; Rudeness,
+              asking for help, taking center stage
+            </li>
+          </ul>
+          <button class="sign-button">Read my sign</button>
+        </div>
+      </div>
+      <div class="libra-para opacity">
+        <div class="overlay-popup">
+          <button class="close-button-white">&times;</button>
+          <h2>Libra Traits</h2>
+          <ul>
+            <li>
+              <strong>Strengths:</strong>&nbsp; &nbsp; &nbsp;
+              Cooperative,diplomatic, gracious, fair-minded, social
+            </li>
+
+            <li>
+              <strong>Weaknesses:</strong>&nbsp; &nbsp; &nbsp; Indecisive,
+              avoids confrontations, will carry a grudge, self-pity
+            </li>
+
+            <li>
+              <strong>Libra likes:</strong>&nbsp; &nbsp; &nbsp; Harmony,
+              gentleness, sharing with others, the outdoors
+            </li>
+
+            <li>
+              <strong>Libra dislikes:</strong>&nbsp; &nbsp; &nbsp; Violence,
+              injustice, loudmouths, conformity
+            </li>
+          </ul>
+          <button class="sign-button">Read my sign</button>
+        </div>
+      </div>
+      <div class="scorpio-para opacity">
+        <div class="overlay-popup">
+          <button class="close-button-white">&times;</button>
+          <h2>Scorpio Traits</h2>
+          <ul>
+            <li>
+              <strong>Strengths:</strong>&nbsp; &nbsp; &nbsp; Resourceful,
+              powerful, brave, passionate, a true friend
+            </li>
+
+            <li>
+              <strong>Weaknesses:</strong>&nbsp; &nbsp; &nbsp; Distrusting,
+              jealous, manipulative, violent
+            </li>
+
+            <li>
+              <strong>Scorpio likes:</strong>&nbsp; &nbsp; &nbsp; Truth, facts,
+              being right, talents, teasing, passion
+            </li>
+
+            <li>
+              <strong>Scorpio dislikes:</strong>&nbsp; &nbsp; &nbsp; Dishonesty,
+              revealing secrets, superficiality, small talk
+            </li>
+          </ul>
+          <button class="sign-button">Read my sign</button>
+        </div>
+      </div>
+      <div class="sagittarius-para opacity">
+        <div class="overlay-popup">
+          <button class="close-button-white">&times;</button>
+          <h2>Sagittarius Traits</h2>
+          <ul>
+            <li>
+              <strong>Strengths:</strong>&nbsp; &nbsp; &nbsp; Generous,
+              idealistic, great sense of humor
+            </li>
+
+            <li>
+              <strong>Weaknesses:</strong>&nbsp; &nbsp; &nbsp; Promises more
+              than can deliver, very impatient, will say anything no matter how
+              undiplomatic
+            </li>
+
+            <li>
+              <strong>Sagittarius likes:</strong>&nbsp; &nbsp; &nbsp; Freedom,
+              travel, philosophy, being outdoors
+            </li>
+
+            <li>
+              <strong>Sagittarius dislikes:</strong>&nbsp; &nbsp; &nbsp; Clingy
+              people, being constrained, off-the-wall theories, details
+            </li>
+          </ul>
+          <button class="sign-button">Read my sign</button>
+        </div>
+      </div>
+      <div class="capricon-para opacity">
+        <div class="overlay-popup">
+          <button class="close-button-white">&times;</button>
+          <h2>Capricorn Traits</h2>
+          <ul>
+            <li>
+              <strong>Strengths:</strong>&nbsp; &nbsp; &nbsp; Responsible,
+              disciplined, self-control, good managers
+            </li>
+
+            <li>
+              <strong>Weaknesses:</strong>&nbsp; &nbsp; &nbsp; Know-it-all,
+              unforgiving, condescending, expecting the worst
+            </li>
+
+            <li>
+              <strong>Capricorn likes:</strong>&nbsp; &nbsp; &nbsp; Family,
+              tradition, music, understated status, quality craftsmanship
+            </li>
+
+            <li>
+              <strong>Capricorn dislikes:</strong>&nbsp; &nbsp; &nbsp; Almost
+              everything at some point
+            </li>
+          </ul>
+          <button class="sign-button">Read my sign</button>
+        </div>
       </div>
       <div class="row card-demensions">
-        <img class="card gemini" src="imgs/gemini.jpg" alt="gemini" />
-        <img class="card cancer" src="imgs/cancer.jpg" alt="cancer" />
-        <img class="card leo" src="imgs/leo.jpg" alt="leo" />
-        <img class="card virgo" src="imgs/virgo.jpg" alt="virgo" />
+        <div class="card">
+          <div class="card-info aquarius">
+            <div class="card-front">
+              <img src="imgs/aquarius.jpg" alt="aquarius" />
+            </div>
+            <div class="card-back">
+              <img src="imgs/backcard.jpg" alt="back of card" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-info pisces">
+            <div class="card-front">
+              <img src="imgs/pisces.jpg" alt="pisces" />
+            </div>
+            <div class="card-back">
+              <img src="imgs/backcard.jpg" alt="back of card" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-info aries">
+            <div class="card-front">
+              <img src="imgs/aries.jpg" alt="aries" />
+            </div>
+            <div class="card-back">
+              <img src="imgs/backcard.jpg" alt="back of card" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-info taurus">
+            <div class="card-front">
+              <img src="imgs/taurus.jpg" alt="taurus" />
+            </div>
+            <div class="card-back">
+              <img src="imgs/backcard.jpg" alt="back of card" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row card-demensions">
+        <div class="card">
+          <div class="card-info gemini">
+            <div class="card-front">
+              <img src="imgs/gemini.jpg" alt="gemini" />
+            </div>
+            <div class="card-back">
+              <img src="imgs/backcard.jpg" alt="back of card" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-info cancer">
+            <div class="card-front">
+              <img src="imgs/cancer.jpg" alt="cancer" />
+            </div>
+            <div class="card-back">
+              <img src="imgs/backcard.jpg" alt="back of card" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-info leo">
+            <div class="card-front">
+              <img src="imgs/leo.jpg" alt="leo" />
+            </div>
+            <div class="card-back">
+              <img src="imgs/backcard.jpg" alt="back of card" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-info virgo">
+            <div class="card-front">
+              <img src="imgs/virgo.jpg" alt="virgo" />
+            </div>
+            <div class="card-back">
+              <img src="imgs/backcard.jpg" alt="back of card" />
+            </div>
+          </div>
+        </div>
       </div>
       <div class="row card-demensions">
-        <img class="card libra" src="imgs/libra.jpg" alt="libra" />
-        <img class="card scorpio" src="imgs/scorpio.jpg" alt="scorpio" />
-        <img
-          class="card sagittarius"
-          src="imgs/sagittarius.jpg"
-          alt="sagittarius"
-        />
-        <img class="card capricon" src="imgs/capricon.jpg" alt="capricon" />
+        <div class="card">
+          <div class="card-info libra">
+            <div class="card-front">
+              <img src="imgs/libra.jpg" alt="libra" />
+            </div>
+            <div class="card-back">
+              <img src="imgs/backcard.jpg" alt="back of card" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-info scorpio">
+            <div class="card-front">
+              <img src="imgs/scorpio.jpg" alt="scorpio" />
+            </div>
+            <div class="card-back">
+              <img src="imgs/backcard.jpg" alt="back of card" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-info sagittarius">
+            <div class="card-front">
+              <img src="imgs/sagittarius.jpg" alt="sagittarius" />
+            </div>
+            <div class="card-back">
+              <img src="imgs/backcard.jpg" alt="back of card" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-info capricon">
+            <div class="card-front">
+              <img src="imgs/capricon.jpg" alt="capricon" />
+            </div>
+            <div class="card-back">
+              <img src="imgs/backcard.jpg" alt="back of card" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <footer>
