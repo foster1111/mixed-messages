@@ -154,244 +154,538 @@ capricon.addEventListener("click", function () {
   card_reveal(capricon_para);
 });
 
-// card object data
-const testDoc = document.querySelector(".testPara");
-const test_function = function () {
-  testDoc.classList.remove("hidden_test");
-};
-// test_function();
-// aquarius
-const aquarius_object = {
-  variable_1: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_2: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_3: {
-    one: testDoc.classList.remove("hidden_test"),
-    two: "Sagittarius",
-  },
-};
-// pisces
-const pisces_object = {
-  variable_1: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_2: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_3: {
-    one: "Virgo",
-    two: "Taurus",
-  },
-};
-// aries
-const aries_object = {
-  variable_1: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_2: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_3: {
-    one: "Libra",
-    two: "Leo",
-  },
-};
-// taurus
-const taurus_object = {
-  variable_1: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_2: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_3: {
-    one: "Scorpio",
-    two: "Cancer",
-  },
-};
-// gemini
-const gemini_object = {
-  variable_1: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_2: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_3: {
-    one: "Sagittarius",
-    two: "Aquarius",
-  },
-};
-// cancer
-const cancer_object = {
-  variable_1: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_2: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_3: {
-    one: "Capricorn",
-    two: "Taurus",
-  },
-};
-// leo
-const leo_object = {
-  variable_1: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_2: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_3: {
-    one: "Aquarius",
-    two: "Gemini",
-  },
-};
-// virgo
-const virgo_object = {
-  variable_1: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_2: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_3: {
-    one: "Pisces",
-    two: "Cancer",
-  },
-};
-// libra
-const libra_object = {
-  variable_1: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_2: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_3: {
-    one: "Aries",
-    two: "Sagittarius",
-  },
-};
-// scorpio
-const scorpio_object = {
-  variable_1: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_2: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_3: {
-    one: " Taurus",
-    two: "Cancer",
-  },
-};
-// sagittarius
-const sagittarius_object = {
-  variable_1: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_2: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_3: {
-    one: "Gemini",
-    two: "Aries",
-  },
-};
-// capricon
-const capricon_object = {
-  variable_1: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_2: {
-    one: "data1",
-    two: "data2",
-    three: "data3",
-  },
-  variable_3: {
-    one: " Taurus",
-    two: "Cancer",
-  },
-};
-
 /// mixed message function
 
-// function to extract
+// function to extract prediction
 const Mixed_message_generator = function (data) {
-  const variable_1 = data.variable_1;
-  const variable_2 = data.variable_2;
-  const variable_3 = data.variable_3;
+  // aquarius data
+  const aquariusVariable_1_1 = document.querySelector();
+  const aquariusVariable_1_2 = document.querySelector();
+  const aquariusVariable_1_3 = document.querySelector();
+  const aquariusVariable_2_1 = document.querySelector();
+  const aquariusVariable_2_2 = document.querySelector();
+  const aquariusVariable_2_3 = document.querySelector();
+  const aquariusVariable_3_1 = document.querySelector();
+  const aquariusVariable_3_2 = document.querySelector();
 
-  const output = function (vary) {
+  // pisces data
+  const piscesVariable_1_1 = document.querySelector();
+  const piscesVariable_1_2 = document.querySelector();
+  const piscesVariable_1_3 = document.querySelector();
+  const piscesVariable_2_1 = document.querySelector();
+  const piscesVariable_2_2 = document.querySelector();
+  const piscesVariable_2_3 = document.querySelector();
+  const piscesVariable_3_1 = document.querySelector();
+  const piscesVariable_3_2 = document.querySelector();
+
+  // aquarius data
+  const ariesVariable_1_1 = document.querySelector();
+  const ariesVariable_1_2 = document.querySelector();
+  const ariesVariable_1_3 = document.querySelector();
+  const ariesVariable_2_1 = document.querySelector();
+  const ariesVariable_2_2 = document.querySelector();
+  const ariesVariable_2_3 = document.querySelector();
+  const ariesVariable_3_1 = document.querySelector();
+  const ariesVariable_3_2 = document.querySelector();
+
+  // aquarius data
+  const taurusVariable_1_1 = document.querySelector();
+  const taurusVariable_1_2 = document.querySelector();
+  const taurusVariable_1_3 = document.querySelector();
+  const taurusVariable_2_1 = document.querySelector();
+  const taurusVariable_2_2 = document.querySelector();
+  const taurusVariable_2_3 = document.querySelector();
+  const taurusVariable_3_1 = document.querySelector();
+  const taurusVariable_3_2 = document.querySelector();
+
+  // aquarius data
+  const geminiVariable_1_1 = document.querySelector();
+  const geminiVariable_1_2 = document.querySelector();
+  const geminiVariable_1_3 = document.querySelector();
+  const geminiVariable_2_1 = document.querySelector();
+  const geminiVariable_2_2 = document.querySelector();
+  const geminiVariable_2_3 = document.querySelector();
+  const geminiVariable_3_1 = document.querySelector();
+  const geminiVariable_3_2 = document.querySelector();
+
+  // aquarius data
+  const cancerVariable_1_1 = document.querySelector();
+  const cancerVariable_1_2 = document.querySelector();
+  const cancerVariable_1_3 = document.querySelector();
+  const cancerVariable_2_1 = document.querySelector();
+  const cancerVariable_2_2 = document.querySelector();
+  const cancerVariable_2_3 = document.querySelector();
+  const cancerVariable_3_1 = document.querySelector();
+  const cancerVariable_3_2 = document.querySelector();
+
+  // aquarius data
+  const leoVariable_1_1 = document.querySelector();
+  const leoVariable_1_2 = document.querySelector();
+  const leoVariable_1_3 = document.querySelector();
+  const leoVariable_2_1 = document.querySelector();
+  const leoVariable_2_2 = document.querySelector();
+  const leoVariable_2_3 = document.querySelector();
+  const leoVariable_3_1 = document.querySelector();
+  const leoVariable_3_2 = document.querySelector();
+
+  // aquarius data
+  const virgoVariable_1_1 = document.querySelector();
+  const virgoVariable_1_2 = document.querySelector();
+  const virgoVariable_1_3 = document.querySelector();
+  const virgoVariable_2_1 = document.querySelector();
+  const virgoVariable_2_2 = document.querySelector();
+  const virgoVariable_2_3 = document.querySelector();
+  const virgoVariable_3_1 = document.querySelector();
+  const virgoVariable_3_2 = document.querySelector();
+
+  // aquarius data
+  const libraVariable_1_1 = document.querySelector();
+  const libraVariable_1_2 = document.querySelector();
+  const libraVariable_1_3 = document.querySelector();
+  const libraVariable_2_1 = document.querySelector();
+  const libraVariable_2_2 = document.querySelector();
+  const libraVariable_2_3 = document.querySelector();
+  const libraVariable_3_1 = document.querySelector();
+  const libraVariable_3_2 = document.querySelector();
+
+  // aquarius data
+  const scorpioVariable_1_1 = document.querySelector();
+  const scorpioVariable_1_2 = document.querySelector();
+  const scorpioVariable_1_3 = document.querySelector();
+  const scorpioVariable_2_1 = document.querySelector();
+  const scorpioVariable_2_2 = document.querySelector();
+  const scorpioVariable_2_3 = document.querySelector();
+  const scorpioVariable_3_1 = document.querySelector();
+  const scorpioVariable_3_2 = document.querySelector();
+
+  // aquarius data
+  const sagittariusVariable_1_1 = document.querySelector();
+  const sagittariusVariable_1_2 = document.querySelector();
+  const sagittariusVariable_1_3 = document.querySelector();
+  const sagittariusVariable_2_1 = document.querySelector();
+  const sagittariusVariable_2_2 = document.querySelector();
+  const sagittariusVariable_2_3 = document.querySelector();
+  const sagittariusVariable_3_1 = document.querySelector();
+  const sagittariusVariable_3_2 = document.querySelector();
+
+  // aquarius data
+  const capriconVariable_1_1 = document.querySelector();
+  const capriconVariable_1_2 = document.querySelector();
+  const capriconVariable_1_3 = document.querySelector();
+  const capriconVariable_2_1 = document.querySelector();
+  const capriconVariable_2_2 = document.querySelector();
+  const capriconVariable_2_3 = document.querySelector();
+  const capriconVariable_3_1 = document.querySelector();
+  const capriconVariable_3_2 = document.querySelector();
+
+  const aquariusOutput = function (vary) {
+    // Number generator
     const number = Math.trunc(Math.random() * 3) + 1;
-
-    if (number === 1) {
-      return vary.one;
-    } else if (number === 2) {
-      return vary.two;
-    } else {
-      return vary.three;
-    }
-  };
-  const output_2 = function (vary2) {
     const number_2 = Math.trunc(Math.random() * 2) + 1;
-    if (number_2 === 1) {
-      return vary2.one;
-    } else {
-      return vary2.two;
+
+    // Variable 1
+    if (number === 1 && vary === "variable_1") {
+      return aquariusVariable_1_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_1") {
+      return aquariusVariable_1_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_1") {
+      return aquariusVariable_1_3.classList.remove("hidden_test");
+    }
+
+    // Variable 2
+    else if (number === 1 && vary === "variable_2") {
+      return aquariusVariable_2_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_2") {
+      return aquariusVariable_2_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_2") {
+      return aquariusVariable_2_3.classList.remove("hidden_test");
+
+      // Variable 3
+    } else if (number_2 === 1 && vary === "variable_3") {
+      return aquariusVariable_3_1.classList.remove("hidden_test");
+    } else if (number_2 === 2 && vary === "variable_3") {
+      return aquariusVariable_3_2.classList.remove("hidden_test");
     }
   };
-  console.log(output(variable_1), output(variable_2), output_2(variable_3));
+
+  const piscesOutput = function (vary) {
+    // Number generator
+    const number = Math.trunc(Math.random() * 3) + 1;
+    const number_2 = Math.trunc(Math.random() * 2) + 1;
+
+    // Variable 1
+    if (number === 1 && vary === "variable_1") {
+      return piscesVariable_1_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_1") {
+      return piscesVariable_1_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_1") {
+      return piscesVariable_1_3.classList.remove("hidden_test");
+    }
+
+    // Variable 2
+    else if (number === 1 && vary === "variable_2") {
+      return piscesVariable_2_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_2") {
+      return piscesVariable_2_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_2") {
+      return piscesVariable_2_3.classList.remove("hidden_test");
+
+      // Variable 3
+    } else if (number_2 === 1 && vary === "variable_3") {
+      return piscesVariable_3_1.classList.remove("hidden_test");
+    } else if (number_2 === 2 && vary === "variable_3") {
+      return piscesVariable_3_2.classList.remove("hidden_test");
+    }
+  };
+
+  const ariesOutput = function (vary) {
+    // Number generator
+    const number = Math.trunc(Math.random() * 3) + 1;
+    const number_2 = Math.trunc(Math.random() * 2) + 1;
+
+    // Variable 1
+    if (number === 1 && vary === "variable_1") {
+      return ariesVariable_1_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_1") {
+      return ariesVariable_1_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_1") {
+      return ariesVariable_1_3.classList.remove("hidden_test");
+    }
+
+    // Variable 2
+    else if (number === 1 && vary === "variable_2") {
+      return ariesVariable_2_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_2") {
+      return ariesVariable_2_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_2") {
+      return ariesVariable_2_3.classList.remove("hidden_test");
+
+      // Variable 3
+    } else if (number_2 === 1 && vary === "variable_3") {
+      return ariesVariable_3_1.classList.remove("hidden_test");
+    } else if (number_2 === 2 && vary === "variable_3") {
+      return ariesVariable_3_2.classList.remove("hidden_test");
+    }
+  };
+
+  const taurusOutput = function (vary) {
+    // Number generator
+    const number = Math.trunc(Math.random() * 3) + 1;
+    const number_2 = Math.trunc(Math.random() * 2) + 1;
+
+    // Variable 1
+    if (number === 1 && vary === "variable_1") {
+      return taurusVariable_1_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_1") {
+      return taurusVariable_1_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_1") {
+      return taurusVariable_1_3.classList.remove("hidden_test");
+    }
+
+    // Variable 2
+    else if (number === 1 && vary === "variable_2") {
+      return taurusVariable_2_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_2") {
+      return taurusVariable_2_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_2") {
+      return taurusVariable_2_3.classList.remove("hidden_test");
+
+      // Variable 3
+    } else if (number_2 === 1 && vary === "variable_3") {
+      return taurusVariable_3_1.classList.remove("hidden_test");
+    } else if (number_2 === 2 && vary === "variable_3") {
+      return taurusVariable_3_2.classList.remove("hidden_test");
+    }
+  };
+
+  const geminiOutput = function (vary) {
+    // Number generator
+    const number = Math.trunc(Math.random() * 3) + 1;
+    const number_2 = Math.trunc(Math.random() * 2) + 1;
+
+    // Variable 1
+    if (number === 1 && vary === "variable_1") {
+      return geminiVariable_1_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_1") {
+      return geminiVariable_1_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_1") {
+      return geminiVariable_1_3.classList.remove("hidden_test");
+    }
+
+    // Variable 2
+    else if (number === 1 && vary === "variable_2") {
+      return geminiVariable_2_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_2") {
+      return geminiVariable_2_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_2") {
+      return geminiVariable_2_3.classList.remove("hidden_test");
+
+      // Variable 3
+    } else if (number_2 === 1 && vary === "variable_3") {
+      return geminiVariable_3_1.classList.remove("hidden_test");
+    } else if (number_2 === 2 && vary === "variable_3") {
+      return geminiVariable_3_2.classList.remove("hidden_test");
+    }
+  };
+
+  const cancerOutput = function (vary) {
+    // Number generator
+    const number = Math.trunc(Math.random() * 3) + 1;
+    const number_2 = Math.trunc(Math.random() * 2) + 1;
+
+    // Variable 1
+    if (number === 1 && vary === "variable_1") {
+      return cancerVariable_1_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_1") {
+      return cancerVariable_1_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_1") {
+      return cancerVariable_1_3.classList.remove("hidden_test");
+    }
+
+    // Variable 2
+    else if (number === 1 && vary === "variable_2") {
+      return cancerVariable_2_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_2") {
+      return cancerVariable_2_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_2") {
+      return cancerVariable_2_3.classList.remove("hidden_test");
+
+      // Variable 3
+    } else if (number_2 === 1 && vary === "variable_3") {
+      return cancerVariable_3_1.classList.remove("hidden_test");
+    } else if (number_2 === 2 && vary === "variable_3") {
+      return cancerVariable_3_2.classList.remove("hidden_test");
+    }
+  };
+
+  const leoOutput = function (vary) {
+    // Number generator
+    const number = Math.trunc(Math.random() * 3) + 1;
+    const number_2 = Math.trunc(Math.random() * 2) + 1;
+
+    // Variable 1
+    if (number === 1 && vary === "variable_1") {
+      return leoVariable_1_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_1") {
+      return leoVariable_1_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_1") {
+      return leoVariable_1_3.classList.remove("hidden_test");
+    }
+
+    // Variable 2
+    else if (number === 1 && vary === "variable_2") {
+      return leoVariable_2_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_2") {
+      return leoVariable_2_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_2") {
+      return leoVariable_2_3.classList.remove("hidden_test");
+
+      // Variable 3
+    } else if (number_2 === 1 && vary === "variable_3") {
+      return leoVariable_3_1.classList.remove("hidden_test");
+    } else if (number_2 === 2 && vary === "variable_3") {
+      return leoVariable_3_2.classList.remove("hidden_test");
+    }
+  };
+
+  const virgoOutput = function (vary) {
+    // Number generator
+    const number = Math.trunc(Math.random() * 3) + 1;
+    const number_2 = Math.trunc(Math.random() * 2) + 1;
+
+    // Variable 1
+    if (number === 1 && vary === "variable_1") {
+      return virgoVariable_1_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_1") {
+      return virgoVariable_1_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_1") {
+      return virgoVariable_1_3.classList.remove("hidden_test");
+    }
+
+    // Variable 2
+    else if (number === 1 && vary === "variable_2") {
+      return virgoVariable_2_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_2") {
+      return virgoVariable_2_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_2") {
+      return virgoVariable_2_3.classList.remove("hidden_test");
+
+      // Variable 3
+    } else if (number_2 === 1 && vary === "variable_3") {
+      return virgoVariable_3_1.classList.remove("hidden_test");
+    } else if (number_2 === 2 && vary === "variable_3") {
+      return virgoVariable_3_2.classList.remove("hidden_test");
+    }
+  };
+
+  const libraOutput = function (vary) {
+    // Number generator
+    const number = Math.trunc(Math.random() * 3) + 1;
+    const number_2 = Math.trunc(Math.random() * 2) + 1;
+
+    // Variable 1
+    if (number === 1 && vary === "variable_1") {
+      return libraVariable_1_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_1") {
+      return libraVariable_1_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_1") {
+      return libraVariable_1_3.classList.remove("hidden_test");
+    }
+
+    // Variable 2
+    else if (number === 1 && vary === "variable_2") {
+      return libraVariable_2_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_2") {
+      return libraVariable_2_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_2") {
+      return libraVariable_2_3.classList.remove("hidden_test");
+
+      // Variable 3
+    } else if (number_2 === 1 && vary === "variable_3") {
+      return libraVariable_3_1.classList.remove("hidden_test");
+    } else if (number_2 === 2 && vary === "variable_3") {
+      return libraVariable_3_2.classList.remove("hidden_test");
+    }
+  };
+
+  const scorpioOutput = function (vary) {
+    // Number generator
+    const number = Math.trunc(Math.random() * 3) + 1;
+    const number_2 = Math.trunc(Math.random() * 2) + 1;
+
+    // Variable 1
+    if (number === 1 && vary === "variable_1") {
+      return scorpioVariable_1_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_1") {
+      return scorpioVariable_1_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_1") {
+      return scorpioVariable_1_3.classList.remove("hidden_test");
+    }
+
+    // Variable 2
+    else if (number === 1 && vary === "variable_2") {
+      return scorpioVariable_2_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_2") {
+      return scorpioVariable_2_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_2") {
+      return scorpioVariable_2_3.classList.remove("hidden_test");
+
+      // Variable 3
+    } else if (number_2 === 1 && vary === "variable_3") {
+      return scorpioVariable_3_1.classList.remove("hidden_test");
+    } else if (number_2 === 2 && vary === "variable_3") {
+      return scorpioVariable_3_2.classList.remove("hidden_test");
+    }
+  };
+
+  const sagittariusOutput = function (vary) {
+    // Number generator
+    const number = Math.trunc(Math.random() * 3) + 1;
+    const number_2 = Math.trunc(Math.random() * 2) + 1;
+
+    // Variable 1
+    if (number === 1 && vary === "variable_1") {
+      return sagittariusVariable_1_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_1") {
+      return sagittariusVariable_1_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_1") {
+      return sagittariusVariable_1_3.classList.remove("hidden_test");
+    }
+
+    // Variable 2
+    else if (number === 1 && vary === "variable_2") {
+      return sagittariusVariable_2_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_2") {
+      return sagittariusVariable_2_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_2") {
+      return sagittariusVariable_2_3.classList.remove("hidden_test");
+
+      // Variable 3
+    } else if (number_2 === 1 && vary === "variable_3") {
+      return sagittariusVariable_3_1.classList.remove("hidden_test");
+    } else if (number_2 === 2 && vary === "variable_3") {
+      return sagittariusVariable_3_2.classList.remove("hidden_test");
+    }
+  };
+
+  const capriconOutput = function (vary) {
+    // Number generator
+    const number = Math.trunc(Math.random() * 3) + 1;
+    const number_2 = Math.trunc(Math.random() * 2) + 1;
+
+    // Variable 1
+    if (number === 1 && vary === "variable_1") {
+      return capriconVariable_1_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_1") {
+      return capriconVariable_1_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_1") {
+      return capriconVariable_1_3.classList.remove("hidden_test");
+    }
+
+    // Variable 2
+    else if (number === 1 && vary === "variable_2") {
+      return capriconVariable_2_1.classList.remove("hidden_test");
+    } else if (number === 2 && vary === "variable_2") {
+      return capriconVariable_2_2.classList.remove("hidden_test");
+    } else if (number === 3 && vary === "variable_2") {
+      return capriconVariable_2_3.classList.remove("hidden_test");
+
+      // Variable 3
+    } else if (number_2 === 1 && vary === "variable_3") {
+      return capriconVariable_3_1.classList.remove("hidden_test");
+    } else if (number_2 === 2 && vary === "variable_3") {
+      return capriconVariable_3_2.classList.remove("hidden_test");
+    }
+  };
+
+  if (data === aquarius) {
+    aquariusOutput("variable_1");
+    aquariusOutput("variable_2");
+    aquariusOutput("variable_3");
+  } else if (data === pisces) {
+    piscesOutput("variable_1");
+    piscesOutput("variable_2");
+    piscesOutput("variable_3");
+  } else if (data === aries) {
+    ariesOutput("variable_1");
+    ariesOutput("variable_2");
+    ariesOutput("variable_3");
+  } else if (data === taurus) {
+    taurusOutput("variable_1");
+    taurusOutput("variable_2");
+    taurusOutput("variable_3");
+  } else if (data === gemini) {
+    geminiOutput("variable_1");
+    geminiOutput("variable_2");
+    geminiOutput("variable_3");
+  } else if (data === cancer) {
+    cancerOutput("variable_1");
+    cancerOutput("variable_2");
+    cancerOutput("variable_3");
+  } else if (data === leo) {
+    leoOutput("variable_1");
+    leoOutput("variable_2");
+    leoOutput("variable_3");
+  } else if (data === virgo) {
+    virgoOutput("variable_1");
+    virgoOutput("variable_2");
+    virgoOutput("variable_3");
+  } else if (data === libra) {
+    libraOutput("variable_1");
+    libraOutput("variable_2");
+    libraOutput("variable_3");
+  } else if (data === scorpio) {
+    scorpioOutput("variable_1");
+    scorpioOutput("variable_2");
+    scorpioOutput("variable_3");
+  } else if (data === sagittarius) {
+    sagittariusOutput("variable_1");
+    sagittariusOutput("variable_2");
+    sagittariusOutput("variable_3");
+  } else if (data === capricon) {
+    capriconOutput("variable_1");
+    capriconOutput("variable_2");
+    capriconOutput("variable_3");
+  }
 };
-// Mixed_message_generator(aquarius_object);
+Mixed_message_generator(aries);
